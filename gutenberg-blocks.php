@@ -5,14 +5,14 @@ Plugin Name: Gutenberg Blocks
 Version: 1.1
 Plugin URI: https://florianbrinkmann.com/en/5339/gutenberg-wrap-core-block-in-element/
 Description: Wrap elements from Wordpress 5+ (Gutenberg) in wrapper divs
-Author URI: https://gist.github.com/webmandesign/5b50d521e085198dce4eadb6864eb5a3
+Author URI: https://ericadreisbach.com/
 */
 
 
 if ( ! defined( 'ABSPATH' ) ) {  exit; }
 
-function dbllc_gutenberg_wrapper( $block_content, $block ) {
 
+function dbllc_gutenberg_wrapper( $block_content, $block ) {
 
 
 	// non-empty blocks get the wrapper

@@ -18,7 +18,8 @@ addFilter(
 */
 
 
-function gutenbergBlocks( element, blockType, attributes  ) {
+function gutenbergBlocks( element, blockType, attributes ) {
+
 	// Check if that is not a table block.
 	if (blockType.name !== 'core/table') {
 		return element;
