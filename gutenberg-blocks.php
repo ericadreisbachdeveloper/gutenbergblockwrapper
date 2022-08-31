@@ -32,7 +32,10 @@ function dbllc_gutenberg_wrapper( $block_content, $block ) {
 
 	}
 
+
 	else { return $block_content; }
 
+
 }
+
 add_filter( 'render_block', 'dbllc_gutenberg_wrapper', 10, 2 );
